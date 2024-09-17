@@ -1,0 +1,28 @@
+[
+    {
+        "name": "crawler",
+        "type": "mysql",
+        "host": "dev.winds.vn",
+        "port": 23022,
+        "username": "root",
+        "password": "WindsoftAa@",
+        "database": "crawler",
+        "entities": [
+            "src/entities/crawler/*.ts"
+        ],
+        "synchronize": false
+    },
+    {
+        "name": "phone",
+        "type": "mysql",
+        "host": "dev.winds.vn",
+        "port": 23022,
+        "username": "root",
+        "password": "WindsoftAa@",
+        "database": "phone_database",
+        "entities": [
+            "src/entities/phone/*.ts"
+        ],
+        "synchronize": false
+    }
+]
